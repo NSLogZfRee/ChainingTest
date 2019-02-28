@@ -13,6 +13,7 @@
 		917D1FD8221EA450002D9E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 917D1FD7221EA450002D9E28 /* Assets.xcassets */; };
 		917D1FDB221EA450002D9E28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917D1FD9221EA450002D9E28 /* LaunchScreen.storyboard */; };
 		917D1FDE221EA450002D9E28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 917D1FDD221EA450002D9E28 /* main.m */; };
+		917D1FE9221EA4CF002D9E28 /* NSNumber+Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 917D1FE8221EA4CF002D9E28 /* NSNumber+Caculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		917D1FDA221EA450002D9E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		917D1FDC221EA450002D9E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		917D1FDD221EA450002D9E28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		917D1FE7221EA4CF002D9E28 /* NSNumber+Caculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Caculator.h"; sourceTree = "<group>"; };
+		917D1FE8221EA4CF002D9E28 /* NSNumber+Caculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Caculator.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				917D1FD9221EA450002D9E28 /* LaunchScreen.storyboard */,
 				917D1FDC221EA450002D9E28 /* Info.plist */,
 				917D1FDD221EA450002D9E28 /* main.m */,
+				917D1FE7221EA4CF002D9E28 /* NSNumber+Caculator.h */,
+				917D1FE8221EA4CF002D9E28 /* NSNumber+Caculator.m */,
 			);
 			path = Chaining;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			files = (
 				917D1FD3221EA44E002D9E28 /* ViewController.m in Sources */,
 				917D1FDE221EA450002D9E28 /* main.m in Sources */,
+				917D1FE9221EA4CF002D9E28 /* NSNumber+Caculator.m in Sources */,
 				917D1FD0221EA44E002D9E28 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

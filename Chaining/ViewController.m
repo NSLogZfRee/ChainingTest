@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSNumber+Caculator.h"
 
 @interface ViewController ()
 
@@ -16,8 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    /*
+    链式编程的初步尝试,运用category,添加了NSNumber的实例方法.
+    方法的返回类型为Block,而Block是一个返回NSNumber类型的Block,所以就可以用点语法,一直get下去了.
+     */
+    
+    NSNumber *result = @(100).add(2).subtract(50).multiply(2).divide(4);
+    NSLog(@"%f",[result floatValue]);
+    
 }
-
 
 @end

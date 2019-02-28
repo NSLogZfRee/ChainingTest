@@ -10,7 +10,17 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NSNumber * (^calculateBlock)(float);
+
 @interface NSNumber (Caculator)
+
+- (calculateBlock)add;
+
+- (calculateBlock)subtract;
+
+- (calculateBlock)multiply;
+
+- (calculateBlock)divide;
 
 @end
 

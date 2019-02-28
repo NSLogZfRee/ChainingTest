@@ -10,4 +10,39 @@
 
 @implementation NSNumber (Caculator)
 
+- (calculateBlock)add{
+    calculateBlock addBlock = ^(float value){
+        return @([self floatValue] + value);
+    };
+    return addBlock;
+    
+//    return ^NSNumber *(float value) {
+//        return @(self.floatValue + value);
+//    };
+    
+//    return ^(float value){
+//        return @(self.floatValue + value);
+//    };
+}
+
+- (calculateBlock)subtract{
+    return ^(float value){
+        return @(self.floatValue - value);
+    };
+}
+
+- (calculateBlock)multiply{
+    return ^(float value){
+        return @(self.floatValue * value);
+    };
+}
+
+- (calculateBlock)divide{
+    return ^(float value){
+        return @(self.floatValue / value);
+    };
+}
+
+
+
 @end
